@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-image: url(bgimg1.jpg);
+    background-size: cover;
+}
+header{
+    display: flex;
+    flex-direction: row-reverse;
+}
+a:link{
+    color: #fff;
+    padding: 1rem;
+    text-decoration: none;  
+}  
+a:hover{
+    color:#6ac4ff;
+}
+a:visited{
+    color: #6ac4ff;
+}
+h1{
+    color:rgba(0, 204, 255, 0.349);
+    font-size: 9rem;
+    font-weight: 600;
+    margin-bottom:2rem;
+}
+form{
+    align-items: center;
+    justify-content:center;
+}
+#content{   
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    margin-top: 5rem;
+}
+input[type=text]{
+    width: 38vw;
+    padding: 12px 20px;
+    border: 1px solid #ccc;
+    border-radius: 22px;
+    outline: none;
+    font-size: 16px;
+    font-family: arial,sans-serif;
+    transition: all 0.3s ease;
+}
+input[type=submit]{
+    font-family: arial,sans-serif;
+    padding: 13px 20px;
+    border: none;
+    outline: none;
+    background: #333;
+    color: #fff;
+    align-items: center;
+    margin-top: 1rem;
+    border-radius: 22px;
+    font-size: 16px;
+    cursor: pointer;
+    user-select: none;
+    transition: all 0.3s ease;
+}
+input[type=submit]:hover{
+    background: #6ac4ff;
+    color: #000;
+}
+input[type=text]:focus{
+    border: 1px solid #6ac4ff;
+}
